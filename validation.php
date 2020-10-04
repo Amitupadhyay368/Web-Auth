@@ -7,9 +7,9 @@ if(isset($_POST['submit']))
 {
 
 $email = mysqli_real_escape_string($con, $_POST['email']);
-$passwd = mysqli_real_escape_string($con,$_POST['pass']);
+$pass = mysqli_real_escape_string($con,$_POST['pass']);
 
-$q = " SELECT * FROM `nw` WHERE `Email`= '$email' AND `Password`='$passwd'";
+$q = " SELECT * FROM `nw` WHERE `Email`= '$email' AND `Password`='$pass'";
 
 $run=mysqli_query($con,$q);
 
