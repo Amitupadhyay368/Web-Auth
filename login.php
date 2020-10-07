@@ -40,7 +40,7 @@ else
       <img src="pic.png" style="width: 190px;height: 60px;" >
     <br><br>
     </div>
-        <p>Welcome to the login page</p>
+        <p>Welcome!!! to the login page</p><!-- welcome to login page -->
         <div class="btn-wrap"><a class="btn btn-lg btn-register js-btn" data-target="register">SIGN UP</a><a class="btn btn-lg btn-login js-btn" data-target="login">SIGN IN</a><br>
           <!---this is for signup from different social account----
           <p>Or Start With</p>
